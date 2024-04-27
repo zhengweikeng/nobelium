@@ -20,7 +20,7 @@ export async function getStaticProps() {
         revalidate: 1
     }
 }
-export default function weekly({ postsToShow, page, showNext }) {
+export default function Weekly({ postsToShow, page, showNext }) {
     const { title, description } = useConfig()
 
     return (
