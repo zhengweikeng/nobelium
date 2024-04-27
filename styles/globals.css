@@ -121,6 +121,11 @@ nav {
   user-select: none;
 }
 
+.tag-container li:hover {
+  background-color: black;
+  color: white;
+}
+
 @media (min-width: 768px) {
   .sticky-nav-full {
     @apply max-w-full border-b border-opacity-50 border-gray-200 dark:border-gray-600 dark:border-opacity-50;
