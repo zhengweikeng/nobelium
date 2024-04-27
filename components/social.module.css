@@ -1,0 +1,46 @@
+.copyright {
+    font-size: 80%;
+    padding: 0.5em;
+    align-content: center;
+}
+
+.settings,
+.social {
+    user-select: none;
+}
+
+.settings a,
+.social a {
+    cursor: pointer;
+    font-size: 2em;
+    display: inline-flex;
+    padding: 0.25em;
+    margin-right: 1vw;
+    transition: color 250ms ease-out;
+}
+
+.settings a:last-of-type,
+.social a:last-of-type {
+    margin-right: 0;
+}
+
+.settings a:hover,
+.social a:hover {
+    transition: color 50ms ease-out;
+}
+
+.twitter:hover {
+    color: #050504;
+}
+
+.github:hover {
+    color: #c9510c;
+}
+
+.instagram:hover {
+    color: #df523f;
+}
+
+.jike:hover {
+    color: #c9510c;
+}

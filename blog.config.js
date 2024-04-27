@@ -19,7 +19,12 @@ const BLOG = {
   showWeekly: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/_seed__',
+  socialLinks: {
+    github: 'https://github.com/zhengweikeng',
+    twitter: 'https://twitter.com/_seed__',
+    jike: 'https://okjk.co/tqUuKN',
+    instagram: 'https://www.instagram.com/seed_zz'
+  },
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
