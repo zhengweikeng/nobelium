@@ -20,6 +20,7 @@ const BLOG = {
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLinks: {
+    photoWall: 'https://photo.seedzz.top',
     github: 'https://github.com/zhengweikeng',
     twitter: 'https://twitter.com/_seed__',
     jike: 'https://okjk.co/tqUuKN',

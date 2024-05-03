@@ -1,7 +1,7 @@
 import { useConfig } from '@/lib/config'
-import Vercel from '@/components/Vercel'
 import { FaXTwitter, FaGithub } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
+import { MdPhotoSizeSelectActual } from "react-icons/md";
 import styles from '@/components/social.module.css'
 
 const Footer = ({ fullWidth }) => {
@@ -22,6 +22,17 @@ const Footer = ({ fullWidth }) => {
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
           </div>
           <div className={styles.social}>
+            {BLOG.socialLinks.photoWall && (
+              <a
+                className={styles.photo}
+                href={BLOG.socialLinks.photoWall}
+                title={`Photo by ${BLOG.author}`}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <MdPhotoSizeSelectActual />
+              </a>
+            )}
             {BLOG.socialLinks.github && (
               <a
                 className={styles.github}
