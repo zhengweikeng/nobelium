@@ -73,7 +73,7 @@ const Footer = ({ fullWidth }) => {
             {BLOG.socialLinks.instagram && (
               <a
                 className={styles.instagram}
-                href={`BLOG.socialLinks.instagram`}
+                href={BLOG.socialLinks.instagram}
                 title={`Instagram ${BLOG.author}`}
                 target='_blank'
                 rel='noopener noreferrer'
