@@ -21,6 +21,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLinks: {
     photoWall: 'https://photo.seedzz.top',
+    music: 'https://seedzz.notion.site/124f5c3062554e0995e922802d8027a3?v=93ba6e05fc54457e90a37c618b65e72e',
     github: 'https://github.com/zhengweikeng',
     twitter: 'https://twitter.com/_seed__',
     jike: 'https://okjk.co/tqUuKN',
